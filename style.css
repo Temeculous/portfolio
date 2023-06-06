@@ -1,0 +1,95 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url("https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: azure;
+  overflow-x: hidden;
+  padding-top: 50px;
+  transition: 0.5s;
+}
+
+.navbar a {
+  padding: 0.5em 0.5em 0.5em 2em;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: yellowgreen;
+}
+
+.navbar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 30px;
+  margin: 0 0 0 40px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: azure;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: yellowgreen;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 15px;
+}
+
+#introduction {
+  margin: auto;
+}
+
+#introduction h2 {
+  margin: 0 auto;
+}
+
+#links {
+  display: flex;
+  background-color: azure;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+.external-link {
+  margin: 0 15px;
+}
+
+.e-link-text {
+  color: black;
+}
+
+@media screen and (max-height: 500px) {
+  .navbar {
+    padding-top: 15px;
+  }
+  .navbar a {
+    font-size: 18px;
+  }
+}
