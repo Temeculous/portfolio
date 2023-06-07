@@ -1,0 +1,64 @@
+#heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: none;
+  border: none;
+}
+
+.tenor-gif-embed {
+  width: 100px;
+  height: 100px;
+  margin: 0 30px;
+}
+
+p {
+  margin: 0 auto;
+  width: 70%;
+}
+
+#welcome-message {
+  font-size: 18px;
+}
+
+#home-header {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  color: rgb(142, 184, 151);
+  text-shadow: 0 0 3px rgb(142, 184, 151);
+}
+
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px 125px;
+}
+
+.link-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(135, 135, 135, 0.669);
+  width: 300px;
+  height: 200px;
+}
+
+.card-link {
+  text-decoration: none;
+  font-size: 0.9em;
+  color: rgb(142, 184, 151);
+}
+
+.card-link:hover {
+  text-shadow: 0 0 5px rgb(142, 184, 151);
+}
+
+.link-card .link-card-body {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: row;
+}
