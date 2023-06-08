@@ -1,12 +1,14 @@
 #resume-header {
-  display: block;
-  position: absolute;
+  display: flex;
+  flex-direction: row;
   top: 20vh;
   left: 15vw;
+  margin: 0 auto 0 auto;
+  width: 50vw;
 }
 
 #job-title {
-  text-decoration: underline;
+  font-size: 1.2em;
 }
 
 button {
@@ -14,6 +16,12 @@ button {
   border: none;
   color: white;
   cursor: pointer;
+}
+
+#work-overview {
+  display: flex;
+  margin: 30px auto;
+  width: 50vw;
 }
 
 .title-modal {
@@ -40,6 +48,7 @@ button {
 .close {
   color: rgb(188, 1, 1);
   float: right;
+  margin-right: 5px;
   font-size: 40px;
   font-weight: bold;
 }
