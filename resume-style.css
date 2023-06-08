@@ -1,3 +1,7 @@
+body {
+  padding-bottom: 170px;
+}
+
 #resume-header {
   display: flex;
   flex-direction: row;
@@ -7,8 +11,39 @@
   width: 50vw;
 }
 
-#job-title {
+#job-heads {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 15vh auto 0 auto;
+}
+
+#job-bodies {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 5vh auto 0 auto;
+}
+
+#subscript-title {
+  font-size: 1.3em;
+}
+
+.job-title {
+  width: 25vw;
   font-size: 1.2em;
+  color: rgb(0, 0, 0);
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(225, 225, 225, 0.542);
+}
+
+.job-content {
+  margin: 0 auto 0 auto;
+  width: 25vw;
+  height: 35vh;
+  font-size: 1.5em;
+  background-color: rgba(225, 225, 225, 0.542);
 }
 
 button {
@@ -59,3 +94,5 @@ button {
   text-decoration: none;
   cursor: pointer;
 }
+
+@media (min-width: 768px) {}
