@@ -6,6 +6,12 @@
   border: none;
 }
 
+#secret {
+  color: #ffffff04;
+  text-decoration: none;
+  font-size: 5px;
+}
+
 .tenor-gif-embed {
   width: 100px;
   height: 100px;
