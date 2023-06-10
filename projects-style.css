@@ -112,6 +112,7 @@ li {
   height: 30vh;
   margin: 0 auto;
   background-color: aliceblue;
+  border-radius: 3px;
 }
 
 .project-content:hover {

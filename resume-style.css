@@ -32,10 +32,11 @@ body {
 .job-title {
   width: 25vw;
   font-size: 1.5em;
-  color: rgb(0, 0, 0);
+  color: rgb(155, 255, 242);
   margin: 0 auto;
   text-align: center;
   background-color: rgba(225, 225, 225, 0.542);
+  border-radius: 1px;
 }
 
 .job-content {
@@ -47,6 +48,7 @@ body {
   height: 35vh;
   font-size: 1.3em;
   background-color: rgba(225, 225, 225, 0.542);
+  border-radius: 3px;
 }
 
 button {
