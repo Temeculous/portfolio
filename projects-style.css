@@ -126,6 +126,7 @@ li {
 
 .project-description-body {
   font-size: 1.5rem;
+  display: none;
 }
 
 @media (max-width: 767px) {
