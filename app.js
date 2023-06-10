@@ -27,4 +27,4 @@ $(window).on("load", function () {
   });
   $(".closebtn").on("click", closeNav);
   $(".openbtn").on("click", openNav);
-});
+}); 
